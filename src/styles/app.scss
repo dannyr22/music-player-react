@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 h1,
 h2,
 h3 {
@@ -11,5 +15,12 @@ h3 {
   // font-family:
 }
 
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(104, 103, 103);
+}
 @import "./player";
 @import "./song";
+@import "./library";
+@import "./nav";
